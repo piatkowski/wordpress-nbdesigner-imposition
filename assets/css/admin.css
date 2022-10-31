@@ -1,0 +1,42 @@
+img {
+    cursor: pointer
+}
+
+input:checked + img {
+    border: 3px solid red;
+}
+
+label.inline-block {
+    display: inline-block;
+    padding-top: 20px
+}
+
+input[type=radio] {
+    display: none
+}
+
+.nbdi_submit {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nbdi_select {
+    margin-bottom: 10px;
+}
+
+.nbdesigner-product .nbdi_select {
+    max-width: 200px;
+    font-size: 11px;
+    padding: 0;
+    line-height: 30px;
+    min-height: auto;
+    width: 95%;
+}
+
+.nbdi_label {
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 5px;
+    display: block;
+    margin-left: 5px;
+}

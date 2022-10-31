@@ -1,0 +1,10 @@
+{
+  "autoload"    : {
+    "psr-4" : {
+      "NBDImposer\\" : "src/"
+    }
+  },
+  "require": {
+    "propa/tcpdi": "^1.3"
+  }
+}
